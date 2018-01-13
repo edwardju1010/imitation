@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>豆瓣</title>
+</head>
+
+<body>
+  <!-- 导航栏 -->
+  <div class="navigation">
+    <div class="logo clearfix">
+      <a href="http://www.douban.com/">
+          <img src="img\logo_db.png" alt="Logo">
+        </a>
+    </div>
+    <div class="search">
+      <input id="searchbar" type="text" placeholder="书籍、电影、音乐、小组、小站、成员">
+      <a href="#"><i class="fa fa-search"></i></a>
+    </div>
+    <div class="navLinks">
+      <ul class="navRight">
+        <li class="navItem"><a href="https://book.douban.com/" target='_blank'><span>读书</span></a></li>
+        <li class="navItem"><a href="#"><span>电影</span></a></li>
+        <li class="navItem"><a href="#"><span>音乐</span></a></li>
+        <li class="navItem"><a href="#"><span>小组</span></a></li>
+        <li class="navItem"><a href="#"><span>FM</span></a></li>
+        <li class="navItem"><a href="#"><span>同城</span></a></li>
+        <li class="navItem"><a href="#"><span>时间</span></a></li>
+        <li class="navItem"><a href="#"><span>市集</span></a></li>
+      </ul>
+      <img src="img\anony_nav_logo.png" alt="">
+    </div>
+  </div>
+
+
+
+  <!-- 登录界面 -->
+  <div class="loginPanel">
+    <div class="container">
+      <div class="loginCenter">
+        <div class="title">
+          <h1>豆瓣5.0</h1>
+          <h2>我们的精神角落</h2>
+        </div>
+        <div class="app">
+          <div class="btn">
+            <button class="button0">下载豆瓣App</button>
+          </div>
+          <div class="qrcode">
+            <div class="qrcodeGreen">
+              <a href="#"><img src="img\icon_qrcode_green.png" alt="qrcode"></a>
+            </div>
+            <div class="qrcodeScan">
+              <img src="img\doubanapp_qrcode.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="login">
+        <form>
+          <div class="username item">
+            <input class="signin" type="text" placeholder="邮箱/手机号">
+          </div>
+          <div class="password item">
+            <input class="signin" type="password" placeholder="密码">
+            <!-- <a class="forgetPassword" href="#">帮助</a> -->
+          </div>
+          <div class="btn item">
+            <button class="button1" type="button" name="button">登录豆瓣</button>
+            <button class="button2" type="button" name="button">注册账号</button>
+          </div>
+          <div class="checkboxLine">
+            <label>
+            <input type="checkbox" name="" value="">
+            <span>记住我</span>
+          </label>
+            <ul class="sns">
+              <li class="snsItem">
+                <a href=""><i class="fa fa-weixin"></i></a>
+              </li>
+              <li class="snsItem">
+                <a href=""><i class="fa fa-weibo"></i></a>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="bannerZone">
+    <img src="img/banner.jpg" width="950px" height="90px" alt="">
+  </div>
+  <!-- 热点内容 -->
+  <div id="hotspot">
+    <div class="main clearfix">
+      <h2>热点内容&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+        <span>(<a href="#">更多</a>)</span>
+      </h2>
+      <div class="albums clearfix">
+        <div class="albumImg">
+          <div class="pic">
+            <a href="#">
+              <img src="https://img1.doubanio.com/view/photo/albumcover/public/p2497863589.webp" width="170px" height="170px" alt="">
+            </a>
+          </div>
+          <a href="#">新疆旅行日记</a>
+          <span>55张照片</span>
+        </div>
+        <div class="albumImg">
+          <div class="pic">
+            <a href="#">
+              <img src="https://img1.doubanio.com/view/photo/albumcover/public/p2497863589.webp" width="170px" height="170px" alt="">
+            </a>
+          </div>
+          <a href="#">新疆旅行日记</a>
+          <span>55张照片</span>
+        </div>
+        <div class="albumImg">
+          <div class="pic">
+            <a href="#">
+              <img src="https://img1.doubanio.com/view/photo/albumcover/public/p2497863589.webp" width="170px" height="170px" alt="">
+            </a>
+          </div>
+          <a href="#">新疆旅行日记</a>
+          <span>55张照片</span>
+        </div>
+        <div class="albumImg">
+          <div class="pic">
+            <a href="#">
+              <img src="https://img1.doubanio.com/view/photo/albumcover/public/p2497863589.webp" width="170px" height="170px" alt="">
+            </a>
+          </div>
+          <a href="#">新疆旅行日记</a>
+          <span>55张照片</span>
+        </div>
+
+
+      </div>
+      <div class="notes">
+        <ul>
+          <li>
+            <a href="#">2017护肤彩妆精选 | 所有的新欢都在这里了</a>
+            <h3>Rose Noir的日记</h3>
+            <p>废话不多说，2017年最爱的那些新欢都在这里。虽然少而精，但是还是友情提醒你们捂...</p>
+          </li>
+          <li>
+            <a href="#">豆瓣8.3分韩国天价神作！年度最期待催泪韩影非它莫属</a>
+          </li>
+          <li>
+            <a href="#">豆瓣8.3分韩国天价神作！年度最期待催泪韩影非它莫属</a>
+          </li>
+          <li>
+            <a href="#">豆瓣8.3分韩国天价神作！年度最期待催泪韩影非它莫属</a>
+          </li>
+          <li>
+            <a href="#">豆瓣8.3分韩国天价神作！年度最期待催泪韩影非它莫属</a>
+          </li>
+          <li>
+            <a href="#">豆瓣8.3分韩国天价神作！年度最期待催泪韩影非它莫属</a>
+          </li>
+          <li>
+            <a href="#">豆瓣8.3分韩国天价神作！年度最期待催泪韩影非它莫属</a>
+          </li>
+          <li>
+            <a href="#">豆瓣8.3分韩国天价神作！年度最期待催泪韩影非它莫属</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="side">
+      <div class="sideAd">
+        <a href="#"><img src="https://img3.doubanio.com/view/dale-online/dale_ad/public/3c6bbedb68931da.jpg" width="250px" height="125px"></a>
+      </div>
+      <div class="topic">
+        <h2>热门话题&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          <span>(<a href="#">去话题广场</a>)</span>
+        </h2>
+      </div>
+      <div class="topicList">
+        <ul>
+          <li>
+            <a href="#">《黑镜》第四季反映了哪些现代人类和社会所面临的问题？</a>
+            <span>24398人浏览</span>
+          </li>
+          <li>
+            <a href="#">《黑镜》第四季反映了哪些现代人类和社会所面临的问题？</a>
+            <span>24398人浏览</span>
+          </li>
+          <li>
+            <a href="#">《黑镜》第四季反映了哪些现代人类和社会所面临的问题？</a>
+            <span>24398人浏览</span>
+          </li>
+          <li>
+            <a href="#">《黑镜》第四季反映了哪些现代人类和社会所面临的问题？</a>
+            <span>24398人浏览</span>
+          </li>
+          <li>
+            <a href="#">《黑镜》第四季反映了哪些现代人类和社会所面临的问题？</a>
+            <span>24398人浏览</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 豆瓣时间 -->
+  <div id="time" class="section clearfix">
+    <div class="wrapper clearfix">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">豆瓣时间</a></h2>
+      </div>
+      <div class="main clearfix">
+        <h2>热门专栏&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          <span>(<a href="#">更多</a>)</span>
+        </h2>
+        <div class="columnList clearfix">
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+          <div class="columnPic">
+            <a href="#"><img src="https://img1.doubanio.com/dae/niffler/niffler/images/c63562e6-e924-11e7-ad17-0242ac11000c.jpg" width="100px" height="140px"></a>
+            <a href="#">有诗有酒便消寒-随孟晖女史重觅古代生活2</a>
+            <span>音频专栏</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- 视频 -->
+  <div id="video" class="section clearfix">
+    <div class="wrapper clearfix">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">视频</a></h2>
+      </div>
+      <div class="main clearfix">
+        <div class="partOne">
+          <a href="#">
+            <h2>如是&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·</h2>
+          </a>
+          <ul class="videoList1">
+            <li>
+              <div class="videoCover">
+                <a href="#"><img src="https://img3.doubanio.com/img/files/file-1505369246.jpg" alt=""></a>
+              </div>
+              <a class="videoTitle" href="#">《如是》第十二期 | 如是：这是我的路，你的呢？</a>
+            </li>
+            <li>
+              <div class="videoCover">
+                <a href="#"><img src="https://img3.doubanio.com/img/files/file-1505369246.jpg" alt=""></a>
+              </div>
+              <a class="videoTitle" href="#">《如是》第十二期 | 如是：这是我的路，你的呢？</a>
+            </li>
+            <li>
+              <div class="videoCover">
+                <a href="#"><img src="https://img3.doubanio.com/img/files/file-1505369246.jpg" alt=""></a>
+              </div>
+              <a class="videoTitle" href="#">《如是》第十二期 | 如是：这是我的路，你的呢？</a>
+            </li>
+          </ul>
+        </div>
+        <div class="partOne">
+          <a href="#">
+            <h2>掰嘴&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·</h2>
+          </a>
+          <ul class="videoList1">
+            <li>
+              <div class="videoCover">
+                <a href="#"><img src="https://img3.doubanio.com/img/files/file-1505369246.jpg" alt=""></a>
+              </div>
+              <a class="videoTitle" href="#">《如是》第十二期 | 如是：这是我的路，你的呢？</a>
+            </li>
+            <li>
+              <div class="videoCover">
+                <a href="#"><img src="https://img3.doubanio.com/img/files/file-1505369246.jpg" alt=""></a>
+              </div>
+              <a class="videoTitle" href="#">《如是》第十二期 | 如是：这是我的路，你的呢？</a>
+            </li>
+            <li>
+              <div class="videoCover">
+                <a href="#"><img src="https://img3.doubanio.com/img/files/file-1505369246.jpg" alt=""></a>
+              </div>
+              <a class="videoTitle" href="#">《如是》第十二期 | 如是：这是我的路，你的呢？</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- 电影 -->
+  <div id="movie" class="section clearfix">
+    <div class="wrapper">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">电影</a></h2>
+        <ul class="sideLinks">
+          <li><a href="#">影讯&amp;购票</a></li>
+          <li><a href="#">选电影</a></li>
+          <li><a href="#">电视剧</a></li>
+          <li><a href="#">排行榜</a></li>
+          <li><a href="#">分类</a></li>
+          <li><a href="#">影评</a></li>
+          <li><a href="#">预告片</a></li>
+          <li><a href="#">问答</a></li>
+        </ul>
+
+      </div>
+      <div class="side">
+        <div class="classification">
+          <h2>影片分类&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <ul class="tagList">
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+            <li><a href="#">爱情</a></li>
+          </ul>
+        </div>
+        <div class="recent">
+          <h2>近期热门&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <ol class="recentList">
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+            <li><a href="#">请以你的名字呼唤我</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="main">
+        <h2>正在热映&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          <span>(<a href="#">更多</a>)</span>
+        </h2>
+        <ul class="movieList">
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2508926717.webp" alt=""></a>
+            </div>
+            <div class="title">
+              <a href="#">前任3</a>
+            </div>
+            <div class="rating">
+              <span>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            </div>
+            <div class="buyButton button3">
+              <a href="#">选座购票</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="bannerMovie">
+        <a href="#"><img src="https://img3.doubanio.com/view/dale-online/dale_ad/public/1687ef55698d1a7.jpg" alt=""></a>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- 小组 -->
+  <div id="group">
+    <div class="wrapper clearfix">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">小组</a></h2>
+        <ul class="sideLinks">
+          <li><a href="#">精选</a></li>
+          <li><a href="#">文化</a></li>
+          <li><a href="#">行摄</a></li>
+          <li><a href="#">娱乐</a></li>
+          <li><a href="#">时尚</a></li>
+          <li><a href="#">生活</a></li>
+          <li><a href="#">科技</a></li>
+        </ul>
+      </div>
+      <div class="side">
+        <div class="classification">
+          <h2>
+            小组分类&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          </h2>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">兴趣&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+              <li><a href="#">旅行</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <h2>热门小组&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          <span>(<a href="#">更多</a>)</span>
+        </h2>
+        <div class="groupList">
+          <ul>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/icon/g407193-15.jpg" alt="">
+                </a>
+              </div>
+              <div class="info">
+                <div class="title">
+                  <a href="#">帮帮组加入这个组就有人帮你了！</a>
+                </div>
+                15398个成员
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 读书 -->
+  <div id="book">
+    <div class="wrapper clearfix">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">读书</a></h2>
+        <ul class="sideLinks">
+          <li><a href="#">分类浏览</a></li>
+          <li><a href="#">阅读</a></li>
+          <li><a href="#">作者</a></li>
+          <li><a href="#">书评</a></li>
+          <li><a href="#">购书单</a></li>
+        </ul>
+      </div>
+      <div class="side">
+        <div class="hottags">
+          <h2>热门标签&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <div class="bookTypes">
+            <ul class="literature genre">
+              <li>[文学]</li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+            </ul>
+            <ul class="literature genre">
+              <li>[文学]</li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+            </ul>
+            <ul class="literature genre">
+              <li>[文学]</li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+            </ul>
+            <ul class="literature genre">
+              <li>[文学]</li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+            </ul>
+            <ul class="literature genre">
+              <li>[文学]</li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+            </ul>
+            <ul class="literature genre">
+              <li>[文学]</li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+              <li><a href="#">小说</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="newBook">
+          <h2>新书速递&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <ul class="booklist">
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/mpic/s29615553.jpg" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">越狱者</a>
+              </div>
+              <div class="author">[澳]&nbsp;迈克尔</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/mpic/s29615553.jpg" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">越狱者</a>
+              </div>
+              <div class="author">[澳]&nbsp;迈克尔</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/mpic/s29615553.jpg" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">越狱者</a>
+              </div>
+              <div class="author">[澳]&nbsp;迈克尔</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/mpic/s29615553.jpg" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">越狱者</a>
+              </div>
+              <div class="author">[澳]&nbsp;迈克尔</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+          </ul>
+        </div>
+        <div class="original">
+          <h2>原创数字作品&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <ul class="albumList">
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/view/ark_article_cover/large/public/39965040.jpg?v=1510822932.0" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">盘锦豹子</a>
+              </div>
+              <div class="author">坦克手贝吉塔</div>
+              <div class="price">1.99元</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/view/ark_article_cover/large/public/39965040.jpg?v=1510822932.0" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">盘锦豹子</a>
+              </div>
+              <div class="author">坦克手贝吉塔</div>
+              <div class="price">1.99元</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/view/ark_article_cover/large/public/39965040.jpg?v=1510822932.0" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">盘锦豹子</a>
+              </div>
+              <div class="author">坦克手贝吉塔</div>
+              <div class="price">1.99元</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+            <li>
+              <div class="pic">
+                <a href="#">
+                  <img src="https://img3.doubanio.com/view/ark_article_cover/large/public/39965040.jpg?v=1510822932.0" alt="">
+                </a>
+              </div>
+              <div class="title">
+                <a href="#">盘锦豹子</a>
+              </div>
+              <div class="author">坦克手贝吉塔</div>
+              <div class="price">1.99元</div>
+              <a href="#" class="button4">免费试读</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 音乐 -->
+  <div id="music">
+    <div class="wrapper">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">音乐</a></h2>
+        <ul class="sideLinks">
+          <li><a href="#">音乐人</a></li>
+          <li><a href="#">潮潮豆瓣音乐周</a></li>
+          <li><a href="#">金羊毛计划</a></li>
+          <li><a href="#">专题</a></li>
+          <li><a href="#">排行榜</a></li>
+          <li><a href="#">分类浏览</a></li>
+          <li><a href="#">乐评</a></li>
+          <li><a href="#">豆瓣FM</a></li>
+          <li><a href="#">歌单</a></li>
+          <li><a href="#">阿比鹿音乐奖</a></li>
+        </ul>
+      </div>
+      <div class="side">
+        <h2>本周流行音乐人&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          <span>(<a href="#">更多</a>)</span>
+        </h2>
+        <ul class="artistList">
+          <li>
+            <span class="num">1.</span>
+            <div class="pic"><img src="https://img3.doubanio.com/view/site/small/public/f9106c5699955ed.jpg" alt=""></div>
+            <div class="info">
+              <a href="#">茉莉僧</a>
+              <div class="desc">
+                流派：民谣Folk<br> 11392人关注
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="num">1.</span>
+            <div class="pic"><img src="https://img3.doubanio.com/view/site/small/public/f9106c5699955ed.jpg" alt=""></div>
+            <div class="info">
+              <a href="#">茉莉僧</a>
+              <div class="desc">
+                流派：民谣Folk<br> 11392人关注
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="num">1.</span>
+            <div class="pic"><img src="https://img3.doubanio.com/view/site/small/public/f9106c5699955ed.jpg" alt=""></div>
+            <div class="info">
+              <a href="#">茉莉僧</a>
+              <div class="desc">
+                流派：民谣Folk<br> 11392人关注
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="num">1.</span>
+            <div class="pic"><img src="https://img3.doubanio.com/view/site/small/public/f9106c5699955ed.jpg" alt=""></div>
+            <div class="info">
+              <a href="#">茉莉僧</a>
+              <div class="desc">
+                流派：民谣Folk<br> 11392人关注
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="num">1.</span>
+            <div class="pic"><img src="https://img3.doubanio.com/view/site/small/public/f9106c5699955ed.jpg" alt=""></div>
+            <div class="info">
+              <a href="#">茉莉僧</a>
+              <div class="desc">
+                流派：民谣Folk<br> 11392人关注
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      <div class="main">
+        <div class="musicList">
+          <h2>豆瓣新碟榜&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <ul class="newAlbumList">
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img1.doubanio.com/spic/s29658527.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+        <div class="musicList">
+          <h2>热门歌单&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <ul class="newAlbumList">
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+            <li>
+              <div class="pic"><a href="#"><img src="https://img3.doubanio.com/img/songlist/large/1384719-1.jpg" alt=""></a></div>
+              <div class="title"><a href="#">1.伟大的渺小</a></div>
+              <div class="author"><a href="#">林俊杰</a></div>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i> 6.7
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 市集 -->
+  <div id="market">
+    <div class="wrapper clearfix">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">市集</a></h2>
+      </div>
+      <div class="side">
+        <div class="topSide">
+          <h2>热门活动&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          </h2>
+          <div class="topSidePic">
+            <a href="#">
+            <img src="https://img3.doubanio.com/img/files/file-1513305186-3.jpg" alt="">
+            </a>
+          </div>
+          <p><a href="#">我的豆瓣收藏夹里有什么</a></p>
+        </div>
+        <div class="bottomSide">
+          <h2>市集小组&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            <span>(<a href="#">更多</a>)</span>
+          </h2>
+          <ul class="mktTopics">
+            <li>
+              <p class="marketGroupTopic">
+                <a href="#">2018豆瓣电影日历发货时间答疑</a>
+              </p>
+              <p class="marketGroupTopicFooter">
+                <span>94人参与</span>
+                <span>01-03</span>
+              </p>
+            </li>
+            <li>
+              <p class="marketGroupTopic">
+                <a href="#">2018豆瓣电影日历发货时间答疑</a>
+              </p>
+              <p class="marketGroupTopicFooter">
+                <span>94人参与</span>
+                <span>01-03</span>
+              </p>
+            </li>
+            <li>
+              <p class="marketGroupTopic">
+                <a href="#">2018豆瓣电影日历发货时间答疑</a>
+              </p>
+              <p class="marketGroupTopicFooter">
+                <span>94人参与</span>
+                <span>01-03</span>
+              </p>
+            </li>
+          </ul>
+
+        </div>
+
+
+      </div>
+      <div class="main">
+        <h2>热卖商品&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          <span>(<a href="#">更多</a>)</span>
+        </h2>
+        <ul class="spuList">
+          <li>
+            <div class="spuPic">
+              <a href="#">
+                <img src="https://img3.doubanio.com/img/files/file-1513305186-0.jpg" alt="">
+              </a>
+            </div>
+            <div class="spuFooter">
+              <span class="spuPrice">￥98.00</span>
+              <a href="#">豆瓣电影日历2018</a>
+            </div>
+          </li>
+          <li>
+            <div class="spuPic">
+              <a href="#">
+                <img src="https://img3.doubanio.com/img/files/file-1513305186-0.jpg" alt="">
+              </a>
+            </div>
+            <div class="spuFooter">
+              <span class="spuPrice">￥98.00</span>
+              <a href="#">豆瓣电影日历2018</a>
+            </div>
+          </li>
+          <li>
+            <div class="spuPic">
+              <a href="#">
+                <img src="https://img3.doubanio.com/img/files/file-1513305186-0.jpg" alt="">
+              </a>
+            </div>
+            <div class="spuFooter">
+              <span class="spuPrice">￥98.00</span>
+              <a href="#">豆瓣电影日历2018</a>
+            </div>
+          </li>
+          <li>
+            <div class="spuPic">
+              <a href="#">
+                <img src="https://img3.doubanio.com/img/files/file-1513305186-0.jpg" alt="">
+              </a>
+            </div>
+            <div class="spuFooter">
+              <span class="spuPrice">￥98.00</span>
+              <a href="#">豆瓣电影日历2018</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- 同城 -->
+  <div id="events">
+    <div class="wrapper">
+      <div class="sidenav">
+        <h2 class="sectionTitle"><a href="#">同城</a></h2>
+        <ul class="sideLinks">
+          <li><a href="#">近期活动</a></li>
+          <li><a href="#">主办方</a></li>
+          <li><a href="#">舞台剧</a></li>
+          <li><a href="#">2016舞台剧榜单</a></li>
+        </ul>
+      </div>
+      <div class="side">
+        <div class="classification">
+          <h2>
+            活动标签&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          </h2>
+          <div class="tagGroup">
+            <h3><a href="#">音乐&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">小型现场</a></li>
+              <li><a href="#">音乐会</a></li>
+              <li><a href="#">演唱会</a></li>
+              <li><a href="#">音乐节</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">音乐&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">小型现场</a></li>
+              <li><a href="#">音乐会</a></li>
+              <li><a href="#">演唱会</a></li>
+              <li><a href="#">音乐节</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">音乐&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">小型现场</a></li>
+              <li><a href="#">音乐会</a></li>
+              <li><a href="#">演唱会</a></li>
+              <li><a href="#">音乐节</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">音乐&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">小型现场</a></li>
+              <li><a href="#">音乐会</a></li>
+              <li><a href="#">演唱会</a></li>
+              <li><a href="#">音乐节</a></li>
+            </ul>
+          </div>
+          <div class="tagGroup">
+            <h3><a href="#">音乐&raquo;	</a></h3>
+            <ul class="tagList">
+              <li><a href="#">小型现场</a></li>
+              <li><a href="#">音乐会</a></li>
+              <li><a href="#">演唱会</a></li>
+              <li><a href="#">音乐节</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="main">
+        <h2>重庆·本周热门活动&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+          <span>(<a href="#">更多</a>)</span>
+        </h2>
+        <ul class="eventsList">
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img3.doubanio.com/view/event_poster/small/public/d2aca4fd6570fa4.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <div class="title"><a href="#">朴树"好好地"2017巡回演唱会&nbsp;重庆站</a>
+              </div>
+              <div class="infoFooter">
+                <p class="date">2月3日&nbsp;周六&nbsp;20:00-22:00</p>
+                <p>重庆国际博览中心中央大厅</p>
+                <p>95人关注</p>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img3.doubanio.com/view/event_poster/small/public/d2aca4fd6570fa4.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <div class="title"><a href="#">朴树"好好地"2017巡回演唱会&nbsp;重庆站</a>
+              </div>
+              <div class="infoFooter">
+                <p class="date">2月3日&nbsp;周六&nbsp;20:00-22:00</p>
+                <p>重庆国际博览中心中央大厅</p>
+                <p>95人关注</p>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img3.doubanio.com/view/event_poster/small/public/d2aca4fd6570fa4.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <div class="title"><a href="#">朴树"好好地"2017巡回演唱会&nbsp;重庆站</a>
+              </div>
+              <div class="infoFooter">
+                <p class="date">2月3日&nbsp;周六&nbsp;20:00-22:00</p>
+                <p>重庆国际博览中心中央大厅</p>
+                <p>95人关注</p>
+              </div>
+
+            </div>
+          </li>
+          <li>
+            <div class="pic">
+              <a href="#"><img src="https://img3.doubanio.com/view/event_poster/small/public/d2aca4fd6570fa4.jpg" alt=""></a>
+            </div>
+            <div class="info">
+              <div class="title"><a href="#">朴树"好好地"2017巡回演唱会&nbsp;重庆站</a>
+              </div>
+              <div class="infoFooter">
+                <p class="date">2月3日&nbsp;周六&nbsp;20:00-22:00</p>
+                <p>重庆国际博览中心中央大厅</p>
+                <p>95人关注</p>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+ <!-- 页脚 -->
+   <div id="footer">
+     <div class="wrapper">
+       <div id="ft" class="clearfix">
+         <span id="icp">
+           © 2005－2018 douban.com, all rights reserved 北京豆网科技有限公司 <br>
+           <a href="#">京ICP证090015号</a>
+           京ICP备11027288号 网络视听许可证
+           <a href="#">0110418</a>号<br>
+           京网文[2015]2026-368号<img src="https://img3.doubanio.com/pics/biaoshi.gif" alt="">
+           <a href="#">京公网安备11010502000728</a>
+           新出网证(京)字129号<br>
+           违法和不良信息举报电话：4008353331
+           <img src="https://img3.doubanio.com/img/files/file-1423193113.png" height="16px"><br>
+           <img src="https://img3.doubanio.com/pics/icon/jubao.png" width="15px"><a href="#">中国互联网举报中心 </a>
+           电话：12377
+           <a href="#"> 《食品流通许可证》许可证：SP1101051510347287</a><br>
+           <a href="#">新出发京批字第直160029号</a>
+
+         </span>
+         <span id="navLinks">
+           <a href="#">关于豆瓣</a> ·
+           <a href="#">在豆瓣工作</a> ·
+           <a href="#">联系我们</a> ·
+           <a href="#">免责声明</a> ·
+           <a href="#">帮助中心</a> ·
+           <a href="#">移动应用</a> ·
+           <a href="#">豆瓣广告</a>
+           <div class="report"><img src="https://img3.doubanio.com/img/files/file-1489464722.jpg"></div>
+         </span>
+
+       </div>
+     </div>
+   </div>
+</body>
+
+</html>
