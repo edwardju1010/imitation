@@ -142,7 +142,8 @@ li {
   width: 120px;
 }
 
-.title, .qrcode {
+.title,
+.qrcode {
   display: inline-block;
 }
 
@@ -309,6 +310,7 @@ label span {
   margin: 0 auto;
   width: 950px;
   min-height: 580px;
+  overflow: hidden;
 }
 
 #hotspot .main {
@@ -342,9 +344,14 @@ label span {
   text-decoration: none;
 }
 
+.sideAd a {
+  line-height: 0;
+  display: block;
+  font-size: 0;
+}
+
 .albums {
   float: left;
-  display: inline-block;
   width: 400px;
   position: relative;
   left: -10px;
@@ -403,7 +410,7 @@ label span {
 
 .side {
   float: right;
-  width: 260px;
+  width: 250px;
 }
 
 .topic h2 {
@@ -415,16 +422,20 @@ label span {
   list-style-type: none;
 }
 
-.topicList a {
-  display: inline-block;
+.topicList .title {
+  margin-bottom: 6px;
+}
+
+.topicList .title a {
   font-size: 14px;
   margin-bottom: 6px;
   line-height: 1.3;
+  color: #37a;
 }
 
 .topicList span {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   color: #999;
   margin-bottom: 15px;
 }
@@ -436,6 +447,7 @@ label span {
 #time {
   padding: 40px 0 20px;
   background: #f7f7f7;
+  overflow: hidden;
 }
 
 .section {
@@ -466,7 +478,6 @@ label span {
 
 #time .main a:visited,
 .side a:visited {
-  /* color: #669; */
   text-decoration: none;
 }
 
@@ -489,16 +500,15 @@ label span {
   float: left;
   margin-right: 60px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .columnPic a {
-  display: inline-block;
   margin-bottom: 10px;
   color: #333;
   font-size: 13px;
   line-height: 1.38;
   text-decoration: none;
-  text-align: center;
 }
 
 .columnPic a:first-child {
@@ -511,10 +521,13 @@ label span {
   line-height: 1;
   display: block;
   font-size: 12px;
-  text-align: center;
+  margin-top: 10px;
 }
 
 /* 视频 */
+#video {
+  overflow: hidden;
+}
 
 #video .main {
   overflow: hidden;
@@ -577,6 +590,9 @@ label span {
 }
 
 /* 电影 */
+#movie {
+  overflow: hidden;
+}
 
 #movie .side {
   float: right;
@@ -592,10 +608,6 @@ label span {
   color: #fff;
 }
 
-.classification {
-  margin-bottom: 30px;
-}
-
 .classification ul {
   margin: 0;
 }
@@ -605,6 +617,10 @@ label span {
   width: 48px;
   margin-top: 4px;
   line-height: 1.62;
+}
+
+#movie .recent {
+  margin-top: 30px;
 }
 
 .recentList {
@@ -677,6 +693,14 @@ label span {
   margin-bottom: 4px;
 }
 
+.rating .starRating {
+  display: inline-block;
+  width: 55px;
+  height: 11px;
+  background: url('https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png');
+  background-position: 0 -22px;
+}
+
 .fa-star {
   color: #efac28;
 }
@@ -705,7 +729,7 @@ label span {
 }
 
 .bannerMovie {
-  margin: 20px auto 0;
+  margin: 20px auto;
 }
 
 /* 小组 */
@@ -713,6 +737,7 @@ label span {
   padding: 10px 0;
   margin-bottom: 30px;
   min-height: 200px;
+  overflow: hidden;
 }
 
 #group a {
@@ -798,6 +823,7 @@ label span {
   padding: 40px 0 20px;
   margin-bottom: 30px;
   background: #f7f7f7;
+  overflow: hidden;
 }
 
 #book .sidenav a,
@@ -807,6 +833,12 @@ label span {
 
 #book .hottags span a {
   color: #4a2f14;
+}
+
+#book .hottags span a:hover {
+  text-decoration: none;
+  background: #37a;
+  color: #fff;
 }
 
 .genre {
@@ -823,7 +855,6 @@ label span {
 
 .genre li a {
   color: #4a2f14;
-
 }
 
 .genre li:first-child {
@@ -836,8 +867,7 @@ label span {
 }
 
 .booklist li,
-.albumList li
- {
+.albumList li {
   display: inline-block;
   text-align: center;
   font-size: 12px;
@@ -912,6 +942,7 @@ a.button4 {
 /* 音乐 */
 #music {
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 #music .sidenav .sectionTitle a {
@@ -1027,6 +1058,7 @@ a.button4 {
   padding: 40px 0 20px;
   margin-bottom: 30px;
   background: #f7f7f7;
+  overflow: hidden;
 }
 
 #market a:hover {
@@ -1104,6 +1136,7 @@ a.button4 {
 #events {
   padding: 10px 0;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 #events .sidenav h2 a {
@@ -1193,6 +1226,7 @@ a.button4 {
   margin-bottom: 30px;
   border-top: 1px dashed #dcdcdc;
   color: #999;
+  overflow: hidden;
 }
 
 #icp {
